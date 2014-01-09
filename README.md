@@ -37,7 +37,7 @@ Create a full version with drush make:
 #### 7.x-1.x
 
 <caption>
-drush make http://drupalcode.org/project/dkan.git/blob_plain/refs/heads/7.x-1.x:/dkan_distro.make 
+drush make --no-recursion http://drupalcode.org/project/dkan.git/blob_plain/refs/heads/7.x-1.x:/dkan_distro.make 
 </caption>
 
 ### Git
