@@ -36,15 +36,10 @@ Create a full version with drush make:
 
 #### 7.x-1.x
 
-<caption>
-drush make --no-recursion http://drupalcode.org/project/dkan.git/blob_plain/refs/heads/7.x-1.x:/dkan_distro.make 
-</caption>
-
-### Git
-
-#### 7.x-1.x
-
-`git clone --branch 7.x-1.x http://git.drupal.org/project/dkan.git `
+git clone --branch 7.x-1.x http://git.drupal.org/project/dkan.git
+cd dkan
+drush make build-dkan.make webroot
+Optionally use --prepare-install with make to add sites/default/files and sites/default/files
 
 ## Components
 
